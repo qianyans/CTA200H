@@ -1,0 +1,229 @@
+    1  /cita/local/bin/passwd
+    2  python
+    3  cd
+    4  git
+    5  cd home
+    6  cd /hmoe
+    7  cd /home
+    8  dir
+    9  cd~student05
+   10  cd ~student05
+   11  dir
+   12  cd ~student05
+   13  dir
+   14  git clone https://github.com/qianyans/CTA200.git
+   15  dir
+   16  history
+   17  whoami
+   18  pwd
+   19  cd/
+   20  cd /
+   21  ls
+   22  la
+   23  ls -la
+   24  cd
+   25  pwd
+   26  ls -la
+   27  ls
+   28  dir
+   29  cd/
+   30  cd /
+   31  cd /home/cta200
+   32  finger cta200
+   33  cd /mnt/scratch-lustre
+   34  pwd
+   35  cd student05
+   36  mkdir /mnt/scratch-lustre/student/gauss2d
+   37  mkdir /mnt/scratch-lustre/student05/gauss2d
+   38  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/student05/gauss2d
+   39  pwd
+   40  cd /gauss2d
+   41  cd gauss2d
+   42  dir
+   43  ls
+   44  cd gauss2d
+   45  ls
+   46  g++ gauss2d.cc -o gauss2d
+   47  ls
+   48  ./gauss2d > data.txt
+   49  ls
+   50  module load python/2.7.12
+   51  ./script.py
+   52  ./plot.py data.txt
+   53  module load python/2.7.12
+   54  ./script.py < data.txt
+   55  module load python
+   56  ls
+   57  ./script.py
+   58  cd gauss2d
+   59  module load gcc/5.4.0
+   60  module load python/2.7.12
+   61  unload python
+   62  history
+   63  cd /mnt/scratch-lustre/student05/gauss2d
+   64  module load gcc/5.4.0
+   65  module load python/2.7.12
+   66  ./plot.py data.txt
+   67  cd gauss2d
+   68  ./plot.py data.txt
+   69  cd ~
+   70  pwd
+   71  git clone https://github.com/qianyans/CTA200.git
+   72  cd CTA200
+   73  vi README.md
+   74  dir
+   75  ls
+   76  cat README.md
+   77  vi README.md
+   78  dir
+   79  vi LICENSE
+   80  cat LICENSE
+   81  LiCENSE
+   82  vi LICENSE
+   83  git add LICENSE
+   84  git add README.md
+   85  git commit -m "Assignment 3 step 1"
+   86  git push
+   87  git
+   88  git config --global user.name "your_username"
+   89  git config --global user.name "qianyans"
+   90  git config --global user.email "2653507030@qq.com"
+   91  git push
+   92  git config
+   93  qianyans:qys226600@github.com/ git push
+   94  git config credential.helper store
+   95  git push
+   96  cd~
+   97  cd ~
+   98  mkdir -p repos/gauss2d.git
+   99  git config --global user.name "qianyans"
+  100  git config --global user.email 2653507030@qq.com
+  101  cd~
+  102  cd ~
+  103  mkdir -p repos/gauss2d.git
+  104  cd repos/gauss2d.git
+  105  git init --bare
+  106  cd /mnt/scratch-lustre/$USER/gauss2d
+  107  git init
+  108  echo "*.o" > .gitignore
+  109  git add gauss2d.cc Makefile plot.py .gitignore
+  110  dir
+  111  cd gauss.cc
+  112  cd gauss2d
+  113  git add gauss2d.cc Makefile plot.py .gitignore
+  114  git init
+  115  echo "*.o" > .gitignore
+  116  git add gauss2d.cc Makefile plot.py .gitignore
+  117  git status
+  118  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  119  git log
+  120  git remote add origin /home/$USER/repos/gauss2d.git
+  121  cat .git/config
+  122  cd ~
+  123  cd CTA200
+  124  git add README.md
+  125  git add LICENSE
+  126  git commit -m "Assignment 1 step 3"
+  127  git push
+  128  git config --global user.name
+  129  git config --global user.email
+  130  cd..
+  131  cd ..
+  132  dir
+  133  rm CTA200
+  134  rmdir veggies3
+  135  rmdir CTA200
+  136  rm -r CTA200
+  137  cd /
+  138  cd /mnt/scratch-lustre/$USER/gauss2d
+  139  cd gauss2d
+  140  dir
+  141  cat Makefile
+  142  cd ~
+  143  cpw
+  144  cwp
+  145  history
+  146  pwd
+  147  mkdir /home/student05/A1
+  148  cd A1
+  149  vi README.md
+  150  vi LICENSE
+  151  git config
+  152  git config --global --list
+  153  git remote add origin https://github.com/qianyans/CTA200.git
+  154  git remote add origin https://github.com/qianyans/A1.git
+  155  git init
+  156  git remote add origin https://github.com/qianyans/CTA200.git
+  157  git commit -m "creat README and LICENSE"
+  158  git add README.md
+  159  git add LICENSE
+  160  git commit -m "creat README and LICENSE"
+  161  cp -av /home/student05/CTA200H/assignment1_2020 /home/student05/A1
+  162  cd assignment1_2020
+  163  vim Makefile
+  164  cd..
+  165  cd ..
+  166  qwd
+  167  wqd
+  168  pwd
+  169  git add assignment1_2020
+  170  git commit -m "copy c files from assignment and creat Makefile"
+  171  git push -u origin master
+  172  git remote add origin git@github.com:qianyans/CTA200
+  173  git branch
+  174  git remote remove origin
+  175  git remote rm origin
+  176  git remote add origin git@github.com:qianyans/CTA200
+  177  git push -u origin master
+  178  cd /
+  179  cd home
+  180  cd cita200
+  181  cd cta200
+  182  cd assignment1_2020
+  183  ls
+  184  cd repos
+  185  ls
+  186  cd~
+  187  cd ~
+  188  git clone https://github.com/CITA/CTA200H.git
+  189  ls
+  190  cd CTA200H
+  191  ls
+  192  cd assignment1_2020
+  193  ls
+  194  cd/
+  195  cd /
+  196  cd /mnt/scratch-lustre/$USER/gauss2d/gauss2d
+  197  cat Makefile
+  198  conda
+  199  pip
+  200  pip install numpy cython astropy
+  201  pip install Cython --install-option="--no-cython-compile"
+  202  pip install Cython
+  203  pip install astropy
+  204  python3
+  205  python --version
+  206  python3 --version
+  207  sudo apt-get update
+  208  cd A1
+  209  ls
+  210  cd ~
+  211  cd A1
+  212  git log
+  213  git remote rm origin
+  214  git remote set-url origin "https://qianyans@github.com/qianyans/CTA200.git"
+  215  git remote set-url origin "https://github.com/qianyans/CTA200.git"
+  216  git remote add origin "https://qianyans@github.com/qianyans/CTA200.git"
+  217  git push
+  218  git remote set-url origin "https://qianyans@github.com/qianyans/CTA200H.git"
+  219  git push
+  220  git log
+  221  git add README.md LICENSE
+  222  git commit -m "create README and LICENSE"
+  223  git push
+  224  git push -u origin master
+  225  history | 30
+  226  history 30
+  227  history 40
+  228  history 50
+  229  history > history.txt
