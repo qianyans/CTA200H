@@ -8,6 +8,7 @@ import cmath
 import numpy as np
 import matplotlib.pyplot as plt
 
+# recursion function of z
 def z(c, n):
     if n == 0:
         return 0
@@ -21,7 +22,8 @@ def z(c, n):
                 return z1
             else:
                 return abs(z1)**2 + c
-            
+
+# first graph            
 x = np.linspace(-2,2,100)
 y = np.linspace(-2,2,100)
 
@@ -47,6 +49,7 @@ plt.ylabel("Y")
 plt.colorbar(label="number of iteration to diverge(100 means converge)")
 plt.show()
 
+#zooming in graph
 x2 = np.linspace(0,0.5,100)
 y2 = np.linspace(-1,1,100)
 
@@ -71,6 +74,7 @@ plt.xlabel("X")
 plt.ylabel("Y")
 plt.colorbar(label="number of iteration to diverge(100 means converge)")
 plt.show()
+
 
         
         
